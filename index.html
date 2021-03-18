@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/utilities.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
 
   <title>Welcome to EdgeLedger</title>
 </head>
@@ -97,20 +98,36 @@
       </header>
       <div class="row">
         <div class="column">
-          <img src="img/cases/cases1.jpg" alt="">
-          <img src="img/cases/cases2.jpg" alt="">
+          <a href="img/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases1.jpg" alt="">
+          </a>
+          <a href="img/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases2.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="img/cases/cases3.jpg" alt="">
-          <img src="img/cases/cases4.jpg" alt="">
+          <a href="img/cases/cases3.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases3.jpg" alt="">
+          </a>
+          <a href="img/cases/cases4.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases4.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="img/cases/cases5.jpg" alt="">
-          <img src="img/cases/cases6.jpg" alt="">
+          <a href="img/cases/cases5.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases5.jpg" alt="">
+          </a>
+          <a href="img/cases/cases6.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases6.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="img/cases/cases7.jpg" alt="">
-          <img src="img/cases/cases8.jpg" alt="">
+          <a href="img/cases/cases7.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases7.jpg" alt="">
+          </a>
+          <a href="img/cases/cases8.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, porro?">
+            <img src="img/cases/cases8.jpg" alt="">
+          </a>
         </div>
       </div>
     </section>
@@ -211,7 +228,7 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  
+  <script src="js/lightbox.min.js"></script>
   <script>
     const navbar = document.getElementById('navbar');
     let scrolled = false;
