@@ -1,5 +1,5 @@
 # Website-Flexbox
-### Creating a responsive Flexbox Website called EdgeLedger with Home, About, Cases, Blog(section/ page), Blogs(page), Contact sections. This website is created using HTML, CSS styling and JavaScript via [Brad Traversy](https://www.udemy.com/course/modern-html-css-from-the-beginning/)'s Udemy course.
+#### Creating a responsive Flexbox Website called EdgeLedger with Home, About, Cases, Blog(section/ page), Blogs(page), Contact sections. This website is created using HTML, CSS styling and JavaScript via [Brad Traversy](https://www.udemy.com/course/modern-html-css-from-the-beginning/)'s Udemy course.
 
 ## Screenshots 
 
